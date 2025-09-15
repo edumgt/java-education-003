@@ -1,22 +1,19 @@
 // Create a class Car with properties like model, brand, and price. Create and print object data.
 
-class ClassProperties
-{
+class ClassProperties {
     String carBrand;
     String carModel;
     double carPrice;
 
     // Constructor
-    ClassProperties(String carBrand, String carModel, double carPrice)
-    {
+    ClassProperties(String carBrand, String carModel, double carPrice) {
         this.carBrand = carBrand;
         this.carModel = carModel;
         this.carPrice = carPrice;
     }
 
     // Method to display car info
-    void displayCarInfo()
-    {
+    void displayCarInfo() {
         System.out.println("Car Model: " + carModel);
         System.out.println("Car Brand: " + carBrand);
         System.out.println("Price: ₹ " + carPrice);
